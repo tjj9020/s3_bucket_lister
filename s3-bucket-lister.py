@@ -7,5 +7,5 @@ response = s3.list_buckets()
 
 # Output the bucket names
 print('Existing buckets:')
-for bucket in response['Buckets']:
+for bucket in response['Bucketss']:
     print(f'  {bucket["Name"]}')
